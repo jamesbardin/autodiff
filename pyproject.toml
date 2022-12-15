@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=61.0", 
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autodiff-team31"
+version = "0.0.1"
+authors = [
+  { name="Team31", email="cyrusasgari@college.harvard.edu" },
+]
+description = "Automatic differentiation project"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Testing"
+]
+dependencies = [
+  'numpy >= 1.15.0',
+]
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team31"
